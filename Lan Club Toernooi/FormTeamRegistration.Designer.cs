@@ -1,6 +1,6 @@
 ﻿namespace Lan_Club_Toernooi
 {
-    partial class frmTRegister
+    partial class FormTeamRegistration
     {
         /// <summary>
         /// Required designer variable.
@@ -330,7 +330,7 @@
             this.btnSave.TabIndex = 1;
             this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = true;
-            this.btnSave.Click += new System.EventHandler(this.button1_Click);
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // btnClose
             // 
@@ -349,7 +349,7 @@
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.grbGame);
-            this.Name = "frmTRegister";
+            this.Name = "FormTeamRegistration";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Register";
             this.grbGame.ResumeLayout(false);

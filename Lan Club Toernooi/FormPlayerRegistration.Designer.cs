@@ -1,6 +1,6 @@
 ﻿namespace Lan_Club_Toernooi
 {
-    partial class frmPRegister
+    partial class FormPlayerRegistration
     {
         /// <summary>
         /// Required designer variable.
@@ -259,7 +259,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
-            this.Name = "frmPRegister";
+            this.Name = "FormPlayerRegistration";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Player registration";
             this.groupBox1.ResumeLayout(false);

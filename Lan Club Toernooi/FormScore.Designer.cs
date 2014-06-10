@@ -1,6 +1,6 @@
 ﻿namespace Lan_Club_Toernooi
 {
-    partial class frmScore
+    partial class FormScore
     {
         /// <summary>
         /// Required designer variable.
@@ -771,7 +771,7 @@
             this.Controls.Add(this.lblScore);
             this.Controls.Add(this.grpTeam1);
             this.Controls.Add(this.grpTeam2);
-            this.Name = "frmScore";
+            this.Name = "FormScore";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmScore";
             this.grpTeam1.ResumeLayout(false);

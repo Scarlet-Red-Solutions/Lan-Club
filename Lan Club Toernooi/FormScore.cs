@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Lan_Club_Toernooi
 {
-    public partial class frmScore : Form
+    public partial class FormScore : Form
     {
-        public frmScore()
+        public FormScore()
         {
             InitializeComponent();
         }

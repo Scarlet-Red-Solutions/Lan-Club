@@ -44,11 +44,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmScore.cs">
+    <Compile Include="FormScore.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmScore.Designer.cs">
-      <DependentUpon>frmScore.cs</DependentUpon>
+    <Compile Include="FormScore.Designer.cs">
+      <DependentUpon>FormScore.cs</DependentUpon>
     </Compile>
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
@@ -56,29 +56,29 @@
     <Compile Include="Main.Designer.cs">
       <DependentUpon>Main.cs</DependentUpon>
     </Compile>
-    <Compile Include="Player Registration.cs">
+    <Compile Include="FormPlayerRegistration.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Player Registration.Designer.cs">
-      <DependentUpon>Player Registration.cs</DependentUpon>
+    <Compile Include="FormPlayerRegistration.Designer.cs">
+      <DependentUpon>FormPlayerRegistration.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TeamRegister.cs">
+    <Compile Include="FormTeamRegistration.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="TeamRegister.Designer.cs">
-      <DependentUpon>TeamRegister.cs</DependentUpon>
+    <Compile Include="FormTeamRegistration.Designer.cs">
+      <DependentUpon>FormTeamRegistration.cs</DependentUpon>
     </Compile>
     <Compile Include="Utils\DbUtils.cs" />
-    <EmbeddedResource Include="frmScore.resx">
-      <DependentUpon>frmScore.cs</DependentUpon>
+    <EmbeddedResource Include="FormScore.resx">
+      <DependentUpon>FormScore.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Player Registration.resx">
-      <DependentUpon>Player Registration.cs</DependentUpon>
+    <EmbeddedResource Include="FormPlayerRegistration.resx">
+      <DependentUpon>FormPlayerRegistration.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -89,8 +89,8 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="TeamRegister.resx">
-      <DependentUpon>TeamRegister.cs</DependentUpon>
+    <EmbeddedResource Include="FormTeamRegistration.resx">
+      <DependentUpon>FormTeamRegistration.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Installs\mysql-connector-net-6.8.3.msi" />
     <None Include="Properties\Settings.settings">

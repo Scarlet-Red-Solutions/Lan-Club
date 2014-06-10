@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Lan_Club_Toernooi
 {
-    public partial class frmPRegister : Form
+    public partial class FormPlayerRegistration : Form
     {
-        public frmPRegister()
+        public FormPlayerRegistration()
         {
             InitializeComponent();
         }
@@ -26,8 +26,5 @@ namespace Lan_Club_Toernooi
         {
             this.Close();
         }
-
-
-
     }
 }
