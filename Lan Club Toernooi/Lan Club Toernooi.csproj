@@ -70,6 +70,7 @@
     <Compile Include="TeamRegister.Designer.cs">
       <DependentUpon>TeamRegister.cs</DependentUpon>
     </Compile>
+    <Compile Include="Utils\DbUtils.cs" />
     <EmbeddedResource Include="frmScore.resx">
       <DependentUpon>frmScore.cs</DependentUpon>
     </EmbeddedResource>
@@ -91,6 +92,7 @@
     <EmbeddedResource Include="TeamRegister.resx">
       <DependentUpon>TeamRegister.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="Installs\mysql-connector-net-6.8.3.msi" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -103,6 +105,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Installs\References.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

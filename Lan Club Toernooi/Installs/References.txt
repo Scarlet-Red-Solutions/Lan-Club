@@ -1,0 +1,3 @@
+﻿
+MySQL Development Page for .Net Connectors
+http://dev.mysql.com/downloads/
