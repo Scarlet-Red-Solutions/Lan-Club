@@ -52,6 +52,7 @@ namespace Lan_Club_Toernooi
     }
 
     // define fields to be shown on form Team Registration
+    // form create gaan deur en error nie
     public partial class frmTRegister : Form
     {
         public frmTRegister()
@@ -85,6 +86,16 @@ namespace Lan_Club_Toernooi
         }
     }
 
+  // form error hier maar nie bo nie
+
+    public partial class frmPRegister : Form
+    {
+        public frmPRegister()
+        {
+            InitializeComponent();
+        }
+        
+    }
 
 
 
