@@ -390,11 +390,6 @@
         public System.Windows.Forms.ComboBox cmbPos1;
         public System.Windows.Forms.Label label7;
 
-        private void button1_Click(object sender, System.EventArgs e)
-        {
-
-        }
-
         private System.Windows.Forms.Button btnClose;
     }
 }
