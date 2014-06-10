@@ -85,6 +85,14 @@ namespace Lan_Club_Toernooi
         }
     }
 
+    public partial class frmPRegister : Form
+    {
+        public frmPRegister()
+        {
+            InitializeComponent();
+        }
+        
+    }
 
 
 
